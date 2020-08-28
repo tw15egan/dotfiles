@@ -4,7 +4,7 @@
 xcode-select --install
 
 # Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # software development
 brew install git
@@ -54,13 +54,7 @@ brew cask install font-roboto
 brew cask install font-source-code-pro
 
 # misc
-bash osx-defaults.sh
-
-# http://clubmate.fi/upgrade-to-bash-4-in-mac-os-x/
-# Add the new shell to the list of allowed shells
-sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
-# Change to the new shell
-chsh -s /usr/local/bin/bash
+# sh osx-defaults.sh
 
 # Node
 # Similar: https://github.com/Willian-Zhang/Ignore-node_modules-in-Spotlight
