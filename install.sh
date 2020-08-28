@@ -36,8 +36,13 @@ brew cask install firefox
 brew cask install google-chrome
 
 # fonts
-brew tap caskroom/fonts
+brew install svn
+brew tap homebrew/cask-fonts
 brew cask install font-fira-code
+brew cask install font-ibm-plex
+brew cask install font-ibm-plex-sans
+brew cask install font-ibm-plex-mono
+brew cask install font-inconsolata
 brew cask install font-latin-modern
 brew cask install font-lato
 brew cask install font-lobster
@@ -47,9 +52,6 @@ brew cask install font-open-sans
 brew cask install font-pacifico
 brew cask install font-roboto
 brew cask install font-source-code-pro
-brew cask install font-ibm-plex
-brew cask install font-ibm-plex-sans
-brew cask install font-ibm-plex-mono
 
 # misc
 bash osx-defaults.sh
