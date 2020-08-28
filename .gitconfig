@@ -1,0 +1,7 @@
+[alias]
+	hub = git
+	sneak = commit -a --amend --no-edit
+[user]
+	name = TJ Egan
+	email = tw15egan@gmail.com
+	
