@@ -20,7 +20,9 @@ brew cask install boom-3d
 brew cask install caffeine
 brew cask install discord
 brew cask install exodus
+brew cask install notion
 brew cask install nvidia-geforce-now
+brew cask install rectangle
 brew cask install rocket
 brew cask install scroll-reverser
 brew cask install sketch

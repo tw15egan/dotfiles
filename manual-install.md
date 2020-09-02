@@ -1,5 +1,5 @@
 ### Applications
 
 - UnderTheWx
-- Logitech Gaming Software
+- Logitech G Hub
 - Giphy Capture
